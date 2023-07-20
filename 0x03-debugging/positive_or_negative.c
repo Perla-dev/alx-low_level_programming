@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
-  *main - Determine if anumber is positive, negative or zero.
-  (* 0 : is the number to be checked
-  * Return: 0 on success
-  */
+ * positive_or_negative - Determine if a number is positive, negative, or zero.
+ * @i: The number to be checked
+ * Return: void
+ */
 void positive_or_negative(int i)
 {
 	if (i < 0)
@@ -18,6 +19,4 @@ void positive_or_negative(int i)
 	{
 		printf("%d is %s\n", i, "zero");
 	}
-	return;
-
 }
